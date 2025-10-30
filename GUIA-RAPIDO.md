@@ -12,13 +12,17 @@ Este repositório agora contém um sistema completo de backup para Windows:
 
 ## 🚀 Início Rápido (3 Passos)
 
+### ⚠️ IMPORTANTE: Antes de Executar
+
+**NÃO execute o script sem editar as configurações primeiro!** Os caminhos padrão (`\\servidor\compartilhamento` e `C:\Backup`) são apenas exemplos e precisam ser alterados para seus caminhos reais.
+
 ### Opção 1: Usando o Arquivo Batch (Mais Fácil)
 
-1. **Edite** o arquivo `executar-backup.bat`:
-   - Abra com Bloco de Notas
-   - Altere a linha `set ORIGEM=...` para sua unidade de rede
-   - Altere a linha `set DESTINO=...` para onde quer salvar
-   - Salve o arquivo
+1. **⚠️ EDITE PRIMEIRO** o arquivo `executar-backup.bat`:
+   - Clique com botão direito → Editar (ou abra com Bloco de Notas)
+   - **OBRIGATÓRIO:** Altere a linha `set ORIGEM=\\servidor\compartilhamento` para sua unidade de rede real
+   - **OBRIGATÓRIO:** Altere a linha `set DESTINO=C:\Backup` para onde quer salvar os arquivos
+   - Salve o arquivo (Ctrl+S)
 
 2. **Execute** dando duplo clique em `executar-backup.bat`
 

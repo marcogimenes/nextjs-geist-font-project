@@ -7,7 +7,7 @@ echo Script de Backup - Unidade de Rede
 echo ========================================
 echo.
 
-REM Configuracoes - EDITE AQUI
+REM Configuracoes - EDITE AQUI ANTES DE EXECUTAR!
 set ORIGEM=\\servidor\compartilhamento
 set DESTINO=C:\Backup
 set MODO_INCREMENTAL=false
@@ -17,7 +17,20 @@ echo Origem: %ORIGEM%
 echo Destino: %DESTINO%
 echo Modo Incremental: %MODO_INCREMENTAL%
 echo.
-echo IMPORTANTE: Edite este arquivo .bat para alterar as configuracoes
+echo ========================================
+echo ATENCAO: Verifique as configuracoes!
+echo ========================================
+echo.
+echo Os caminhos acima sao exemplos!
+echo.
+echo Se os caminhos estiverem incorretos:
+echo 1. Feche esta janela
+echo 2. Clique com botao direito em executar-backup.bat
+echo 3. Escolha "Editar"
+echo 4. Altere ORIGEM e DESTINO com seus caminhos reais
+echo 5. Salve e execute novamente
+echo.
+echo Se os caminhos estiverem corretos, pressione qualquer tecla...
 echo.
 pause
 
