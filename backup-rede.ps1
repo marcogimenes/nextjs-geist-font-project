@@ -1,4 +1,4 @@
-# Script de Backup de Unidade de Rede para Máquina Local
+﻿# Script de Backup de Unidade de Rede para Máquina Local
 # Autor: Marco Gimenes
 # Data: 2025-10-30
 
